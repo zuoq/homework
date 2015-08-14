@@ -1,0 +1,288 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('ux_1439376857_162516/iconfont.eot');
+  /* IE9*/
+  src: url('ux_1439376857_162516/iconfont.eoticonfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('ux_1439376857_162516/iconfont.woff') format('woff'), /* chrome、firefox */ url('ux_1439376857_162516/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('ux_1439376857_162516/iconfont.svg#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+body,
+div,
+ul,
+li,
+img,
+i {
+  margin: 0 ;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #eaeaea;
+}
+#header {
+  width: 100%;
+  height: 2.14814815rem;
+  border-top: 1.03703704rem solid #000000;
+  background: #f3f3f3;
+}
+#header .header-l {
+  float: left;
+  width: 3.25925926rem;
+  height: 0.96296296rem;
+  line-height: 0.96296296rem;
+  margin-top: 0.65185185rem;
+  margin-left: 0.71111111rem;
+  font-size: 0.88888889rem;
+  color: #444;
+}
+#header .header-r {
+  position: relative;
+  float: right;
+  width: 7.28888889rem;
+  height: 0.96296296rem;
+  line-height: 0.96296296rem;
+  margin-top: 0.65185185rem;
+  margin-right: 0.71111111rem;
+}
+#header .header-r a {
+  display: inline-block;
+  float: right;
+  margin-left: 0.97777778rem;
+}
+#header .header-r .iconfont {
+  font-family: "iconfont" !important;
+  width: 1.06666667rem;
+  height: 0.96296296rem;
+  color: #444;
+}
+#header .filter {
+  position: absolute;
+  display: none;
+  top: 3.17037037rem;
+  right: 0;
+  z-index: 100;
+  background: red;
+  width: 8rem;
+  background-color: #fff;
+}
+#header .filter .top {
+  width: 100%;
+  height: 1.80740741rem;
+}
+#header .filter .top p {
+  float: right;
+  margin: 0.66666667rem 0.71111111rem;
+  height: 0.47407407rem;
+  line-height: 0.47407407rem;
+  font-size: 0.47407407rem;
+  color: #666;
+}
+#header .filter .top .confire {
+  font-weight: bold;
+  color: #8dda5e;
+  margin-left: 0.14814815rem;
+}
+#header .filter ul li {
+  width: 100%;
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+  text-indent: 0.47407407rem;
+  font-size: 0.65185185rem;
+  border-bottom: 1px solid #cccccc;
+  color: #444;
+}
+#header .filter ul li span {
+  float: right;
+  width: 0.32592593rem;
+  height: 0.51851852rem;
+  margin-right: 0.81481481rem;
+}
+#header .filter ul li span img {
+  width: 0.32592593rem;
+  height: 0.51851852rem;
+}
+#header .show {
+  display: block;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  height: 2.13333333rem;
+  border-bottom: 0.04444444rem solid #bdbdbd;
+  background-color: #333333;
+}
+.nav li {
+  flex-flow: row;
+  width: 2.59259259rem;
+  height: 2.01481481rem;
+  margin: 0 0.68148148rem;
+  border-bottom: 0.11851852rem solid #333333;
+}
+.nav li a {
+  display: block;
+  width: 2.59259259rem;
+  margin: 0.68148148rem 0;
+  margin-right: 1.36296296rem;
+  height: 0.65185185rem;
+  line-height: 0.65185185rem;
+  text-align: center;
+  font-size: 0.65185185rem;
+  color: #999999;
+}
+.nav .current {
+  border-bottom-color: #ffd35c;
+}
+.nav .current a {
+  color: #ffd35c;
+}
+.img-container {
+  width: 100%;
+  height: 6.07407407rem;
+  border-top: 0.32592593rem solid #eaeaea;
+}
+.img-container .data-img {
+  width: 100%;
+  height: 6.07407407rem;
+}
+.con {
+  position: relative;
+  width: 100%;
+  margin-top: 0.37037037rem;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+}
+.con .item {
+  height: 7.34814815rem;
+  margin: 0 0.71111111rem;
+}
+.con .item .top {
+  width: 100%;
+  height: 2.51851852rem;
+  padding: 0.34074074rem 0;
+  border-bottom: 1px solid #ccc;
+}
+.con .item .top .head {
+  float: left;
+  overflow: hidden;
+  width: 2.16296296rem;
+  height: 2.16296296rem;
+  border-radius: 1.08148148rem;
+}
+.con .item .top .head img {
+  width: 2.16296296rem;
+  height: 2.16296296rem;
+}
+.con .item .top .xinxi {
+  float: left;
+  width: 12.41481481rem;
+  height: 2.16296296rem;
+}
+.con .item .top .xinxi ul {
+  width: 12.41481481rem;
+  height: 1.27407407rem;
+}
+.con .item .top .xinxi ul .name {
+  float: left;
+  width: 3.43703704rem;
+  height: 1.27407407rem;
+  line-height: 1.27407407rem;
+  font-size: 0.71111111rem;
+  text-indent: 0.41481481rem;
+  color: #404040;
+}
+.con .item .top .xinxi ul .name img {
+  float: right;
+  display: block;
+  width: 0.71111111rem;
+  height: 0.71111111rem;
+  margin-top: 0.28148148rem;
+  border-radius: 50%;
+}
+.con .item .top .xinxi ul .biaoqian {
+  float: right;
+  width: 1.39259259rem;
+  height: 0.71111111rem;
+  margin-top: 0.32592593rem;
+  line-height: 0.71111111rem;
+  font-size: 0.56296296rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 0.35555556rem;
+  background-color: #c4c4c4;
+}
+.con .item .top .xinxi .motto {
+  width: 12.41481481rem;
+  height: 0.53333333rem;
+  margin: 0;
+  line-height: 0.53333333rem;
+  font-size: 0.53333333rem;
+  color: #666;
+  text-indent: 0.41481481rem;
+}
+.con .item .middle {
+  width: 100%;
+}
+.con .item .middle .data-what {
+  width: 100%;
+  height: 1.42222222rem;
+  line-height: 1.42222222rem;
+  font-size: 0.71111111rem;
+  color: #404040;
+}
+.con .item .middle ul li {
+  display: block;
+  float: left;
+  width: 100%;
+  height: 0.53333333rem;
+  font-size: 0.41481481rem;
+  color: #666;
+  margin: 0.17777778rem 0;
+}
+.con .item .middle ul li i {
+  display: block;
+  float: left;
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+}
+.con .item .middle ul li i img {
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+  vertical-align: middle;
+}
+.con .item .middle ul li span {
+  display: block;
+  float: left;
+  height: 0.44444444rem;
+  line-height: 0.59259259rem;
+  text-indent: 0.2962963rem;
+}
+.con .item .middle ul li p {
+  display: block;
+  float: right;
+  margin: 0;
+  height: 0.44444444rem;
+  line-height: 0.59259259rem;
+}
+.con .bottom {
+  width: 100%;
+  height: 1.54074074rem;
+}
+.con .bottom li {
+  float: left;
+  width: 33%;
+  height: 0.47407407rem;
+  line-height: 0.47407407rem;
+  margin-top: 0.71111111rem;
+  border-right: 1px solid #ccc;
+  font-size: 0.47407407rem;
+  text-align: center;
+  color: #999;
+}
+.con .bottom .no-r {
+  border-right: none;
+}

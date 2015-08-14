@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>移动端</title>
+	<link rel="stylesheet" href="style/index.css">
+	<script type="text/javascript">
+		window.onload = function() {
+
+			function change() {
+				var html = document.getElementsByTagName('html')[0];
+				html.style.fontSize = window.screen.width/16+ 'px' ||document.documentElement.clientWidth/16 + "px" ;				
+			}
+			change();
+			window.onresize = function() {
+				change();
+			}
+		}
+	</script>
+	<title>Data</title>
+</head>
+<body>
+	<div id="header">
+		<div class="header-l">一起约</div>
+		<div class="header-r">
+			<a href="javascript:;" class="iconfont shaixuan">&#xe630;</a>
+			<a href="javascript:;" class="iconfont">&#xe643;</a>
+			<a href="javascript:;" class="iconfont">&#xe655;</a>
+		</div>
+				<!-- 筛选 -->
+		<div class="filter">
+			<div class="top">
+				<p class="confire">确认</p>
+				<p class="del">取消</p>
+			</div>
+			<ul>
+				<li>请选择约会类型 <span><img src="img/right.png"  alt=""></span></li>
+				<li>排序方式<span><img src="img/right.png"  alt=""></span></li>
+				<li>性别<span><img src="img/right.png"  alt=""></span></li>
+				<li>消费<span><img src="img/right.png"  alt=""></span></li>
+				<li>时间<span><img src="img/right.png"  alt=""></span></li>
+			</ul>
+		</div>
+	</div>
+	<div class="nav">
+		<li class="current"><a href="javascript:;">首页</a></li>
+		<li><a href="javascript:;">发现</a></li>
+		<li><a href="javascript:;">消息</a></li>
+		<li><a href="javascript:;">我</a></li>
+	</div>
+	<div class="img-container">
+		<img src="img/data-bg.png" class="data-img">
+	</div>
+	<div class="con">
+
+
+
+
+		<div class="item">
+			<div class="top">
+				<div class="head">
+					<img src="img/head-bg.png"  alt="">
+				</div>
+				<div class="xinxi">
+					<ul>
+						<li class="name">刘晓庆
+							<img src="img/sex-nv.png"  alt="">
+						</li>
+						<li class="biaoqian">吃饭</li>
+					</ul>
+					<p class="motto">生命不息，折腾不止</p>
+				</div>
+			</div>
+			<div class="middle">
+				<div class="data-what">下午一起去吃饭，有约的吗？</div>
+				<ul>
+					<li class="time"><i><img src="img/time-bg.png"  alt=""></i><span> 6：00 </span></li>
+					<li class="time"><i><img src="img/where.png" height="36" width="36"  alt=""></i><span>老校门口 </span></li>
+					<li class="time"><i><img src="img/who-pay.png"  alt=""></i><span>我请客 </span><p>三分钟前</p></li>
+				</ul>
+			</div>
+		</div>
+		<div class="bottom">
+			<li>报名：10</li>
+			<li>评论：2</li>
+			<li class="no-r">点赞：17</li>
+		</div>
+	</div>
+	<div class="con">
+		<div class="item">
+			<div class="top">
+				<div class="head">
+					<img src="img/head-bg2.png"  alt="">
+				</div>
+				<div class="xinxi">
+					<ul>
+						<li class="name">姜文
+							<img src="img/sex-nan.png"  alt="">
+						</li>
+						<li class="biaoqian">电影</li>
+					</ul>
+					<p class="motto">生命不息，折腾不止</p>
+				</div>
+			</div>
+			<div class="middle">
+				<div class="data-what">下午一起去拍电影，来当我的女主角吧？</div>
+				<ul>
+					<li class="time"><i><img src="img/time-bg.png"  alt=""></i><span> 6：00 </span></li>
+					<li class="time"><i><img src="img/where.png" height="36" width="36"  alt=""></i><span>老校门口 </span></li>
+					<li class="time"><i><img src="img/who-pay.png"  alt=""></i><span>我请客 </span><p>三分钟前</p></li>
+				</ul>
+			</div>
+		</div>
+		<div class="bottom">
+			<li>报名：10</li>
+			<li>评论：2</li>
+			<li class="no-r">点赞：17</li>
+		</div>
+	</div>
+</body>
+<script src="style/jquery-1.11.3.js"></script>
+<script src="style/touch.js"></script>
+
+</html>
