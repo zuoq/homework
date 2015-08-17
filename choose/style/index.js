@@ -48,6 +48,7 @@ window.onload= function() {
     function noChoose() {  //全不选函数
         //让反选不选中
         oOtherChooose.checked = false;
+        oAllChooose.checked = false;
 
         //选框全部取消选中
         for( var i=0;i<len;i++ ) {
@@ -57,18 +58,8 @@ window.onload= function() {
 
     function otherChoose() {  //反选函数
         oAllChooose.checked = false;
-        for( var i=0;i<len;i++ ){
-            if( aItem[i].checked ){
-                chooseNum++;
-            }
-        }
+        oNoChooose.checked = false;
 
-        //如果选框没有选中的项，则不能进行反选
-        if( chooseNum==0 ){
-            event.preventDefault();
-            alert("没有选中项！！");
-            return false;
-        }else {
             for( var i=0;i<len;i++ ) {
                 if( !aItem[i].checked ) {
                     aItem[i].checked = true;
@@ -76,9 +67,16 @@ window.onload= function() {
                     aItem[i].checked = false;
                 }
             }
+
+        for( var i=0;i<len;i++ ) {
+            if( aItem[i].checked ) {
+                chooseNum++;
+            }
+        }
+        if( chooseNum==len ) {
+            oAllChooose.checked = true;
         }
         chooseNum = 0;
-
     }
 
     function itemChange() {
